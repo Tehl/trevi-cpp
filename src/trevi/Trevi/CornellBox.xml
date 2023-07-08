@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Scene format="AISXML" name="Cornell Box">
+	<Ambient>0.2 0.2 0.2</Ambient>
+	<Cameras count="1">
+		<Camera resX="800" resY="600">
+			<Position>0 0 2.75</Position>
+			<Direction>0 0 -1</Direction>
+			<FieldOfView>54</FieldOfView>
+			<Samples>1</Samples>
+			<RayDepth>4</RayDepth>
+		</Camera>
+	</Cameras>
+	<Lights count="1">
+		<Light type="point">
+			<Position>0 2.5 -6</Position>
+			<Intensity>1 1 1</Intensity>
+			<Falloff>0</Falloff>
+		</Light>
+	</Lights>
+	<Meshes count="2">
+		<Mesh id="0" type="implicit" invert="false">
+			<Vertices count="24">
+				0.5 -0.5 0.5	1.0 0.0 0.0		0 0
+				0.5 -0.5 -0.5	1.0 0.0 0.0		0 0
+				0.5 0.5 -0.5	1.0 0.0 0.0		0 0
+				0.5 0.5 0.5		1.0 0.0 0.0		0 0
+				0.5 -0.5 -0.5	0.0 0.0 -1.0	0 0
+				-0.5 -0.5 -0.5	0.0 0.0 -1.0	0 0
+				-0.5 0.5 -0.5	0.0 0.0 -1.0	0 0
+				0.5 0.5 -0.5	0.0 0.0 -1.0	0 0
+				-0.5 -0.5 -0.5	-1.0 0.0 0.0	0 0
+				-0.5 -0.5 0.5	-1.0 0.0 0.0	0 0
+				-0.5 0.5 0.5	-1.0 0.0 0.0	0 0
+				-0.5 0.5 -0.5	-1.0 0.0 0.0	0 0
+				-0.5 -0.5 0.5	0.0 0.0 1.0		0 0
+				0.5 -0.5 0.5	0.0 0.0 1.0		0 0
+				0.5 0.5 0.5		0.0 0.0 1.0		0 0
+				-0.5 0.5 0.5	0.0 0.0 1.0		0 0
+				-0.5 0.5 0.5	0.0 1.0 0.0		0 0
+				0.5 0.5 0.5		0.0 1.0 0.0		0 0
+				0.5 0.5 -0.5	0.0 1.0 0.0		0 0
+				-0.5 0.5 -0.5	0.0 1.0 0.0		0 0
+				-0.5 -0.5 -0.5	0.0 -1.0 0.0	0 0
+				0.5 -0.5 -0.5	0.0 -1.0 0.0	0 0
+				0.5 -0.5 0.5	0.0 -1.0 0.0	0 0
+				-0.5 -0.5 0.5	0.0 -1.0 0.0	0 0
+			</Vertices>
+			<Indices count="36">
+				0	1	2
+				0	2	3
+				4	5	6
+				4	6	7
+				8	9	10
+				8	10	11
+				12	13	14
+				12	14	15
+				16	17	18
+				16	18	19
+				20	21	22
+				20	22	23
+			</Indices>
+		</Mesh>
+		<Mesh id="1" type="implicit" invert="false">
+			<Vertices count="24">
+				0.5 -0.5 0.5	-1.0 0.0 0.0	0 0
+				0.5 -0.5 -0.5	-1.0 0.0 0.0	0 0
+				0.5 0.5 -0.5	-1.0 0.0 0.0	0 0
+				0.5 0.5 0.5		-1.0 0.0 0.0	0 0
+				0.5 -0.5 -0.5	0.0 0.0 1.0		0 0
+				-0.5 -0.5 -0.5	0.0 0.0 1.0		0 0
+				-0.5 0.5 -0.5	0.0 0.0 1.0		0 0
+				0.5 0.5 -0.5	0.0 0.0 1.0		0 0
+				-0.5 -0.5 -0.5	1.0 0.0 0.0		0 0
+				-0.5 -0.5 0.5	1.0 0.0 0.0		0 0
+				-0.5 0.5 0.5	1.0 0.0 0.0		0 0
+				-0.5 0.5 -0.5	1.0 0.0 0.0		0 0
+				-0.5 -0.5 0.5	0.0 0.0 -1.0	0 0
+				0.5 -0.5 0.5	0.0 0.0 -1.0	0 0
+				0.5 0.5 0.5		0.0 0.0 -1.0	0 0
+				-0.5 0.5 0.5	0.0 0.0 -1.0	0 0
+				-0.5 0.5 0.5	0.0 -1.0 0.0	0 0
+				0.5 0.5 0.5		0.0 -1.0 0.0	0 0
+				0.5 0.5 -0.5	0.0 -1.0 0.0	0 0
+				-0.5 0.5 -0.5	0.0 -1.0 0.0	0 0
+				-0.5 -0.5 -0.5	0.0 1.0 0.0		0 0
+				0.5 -0.5 -0.5	0.0 1.0 0.0		0 0
+				0.5 -0.5 0.5	0.0 1.0 0.0		0 0
+				-0.5 -0.5 0.5	0.0 1.0 0.0		0 0
+			</Vertices>
+			<Indices count="36">
+				0	2	1
+				0	3	2
+				4	6	5
+				4	7	6
+				8	10	9
+				8	11	10
+				12	14	13
+				12	15	14
+				16	18	17
+				16	19	18
+				20	22	21
+				20	23	22
+			</Indices>
+		</Mesh>
+	</Meshes>
+	<Models count="3">
+		<Model id="0" mesh="1">
+			<Position>0 0 -6</Position>
+			<Rotation>0 0 0</Rotation>
+			<Scale>6 6 6</Scale>
+			<Surfaces count="3">
+				<Surface id="1">
+					<Material>
+						<Diffuse>0.75 0.75 0.75</Diffuse>
+						<Ambient>0.2 0.2 0.2</Ambient>
+						<Specular>1 1 1</Specular>
+						<Emit>0 0 0</Emit>
+						<Shininess>1</Shininess>
+					</Material>
+					<Smooth>false</Smooth>
+					<RefractiveIndex>1</RefractiveIndex>
+					<Opacity>1</Opacity>
+					<Reflectivity>0</Reflectivity>
+				</Surface>
+				<Surface id="2">
+					<Material>
+						<Diffuse>1 0 0</Diffuse>
+						<Ambient>0.2 0.2 0.2</Ambient>
+						<Specular>1 1 1</Specular>
+						<Emit>0 0 0</Emit>
+						<Shininess>0.5</Shininess>
+					</Material>
+					<Smooth>false</Smooth>
+					<RefractiveIndex>1</RefractiveIndex>
+					<Opacity>1</Opacity>
+					<Reflectivity>0</Reflectivity>
+				</Surface>
+				<Surface id="3">
+					<Material>
+						<Diffuse>0 0 1</Diffuse>
+						<Ambient>0.2 0.2 0.2</Ambient>
+						<Specular>1 1 1</Specular>
+						<Emit>0 0 0</Emit>
+						<Shininess>1</Shininess>
+					</Material>
+					<Smooth>false</Smooth>
+					<RefractiveIndex>1</RefractiveIndex>
+					<Opacity>1</Opacity>
+					<Reflectivity>0</Reflectivity>
+				</Surface>
+			</Surfaces>
+			<SurfaceClusters>
+				<Cluster type="range" surface="1">
+					0 11
+				</Cluster>
+				<Cluster type="range" surface="2">
+					4 5
+				</Cluster>
+				<Cluster type="range" surface="3">
+					0 1
+				</Cluster>
+			</SurfaceClusters>
+		</Model>
+		<Model id="1" mesh="0">
+			<Position>0 -2 -6</Position>
+			<Rotation>0 30 0</Rotation>
+			<Scale>1 1 1</Scale>
+			<Surfaces count="1">
+				<Surface id="1">
+					<Material>
+						<Diffuse>0.5 0.5 0</Diffuse>
+						<Ambient>0.5 0.5 0</Ambient>
+						<Specular>1 1 1</Specular>
+						<Emit>0 0 0</Emit>
+						<Shininess>1</Shininess>
+					</Material>
+					<Smooth>false</Smooth>
+					<RefractiveIndex>1.25</RefractiveIndex>
+					<Opacity>0.5</Opacity>
+					<Reflectivity>0</Reflectivity>
+				</Surface>
+			</Surfaces>
+			<SurfaceClusters>
+				<Cluster type="range" surface="1">
+					0 11
+				</Cluster>
+			</SurfaceClusters>
+		</Model>
+		<Model id="2" mesh="1">
+			<Position>0 -2 -6</Position>
+			<Rotation>0 30 0</Rotation>
+			<Scale>1 1 1</Scale>
+			<Surfaces count="1">
+				<Surface id="1">
+					<Material>
+						<Diffuse>0.5 0.5 0</Diffuse>
+						<Ambient>0.5 0.5 0</Ambient>
+						<Specular>1 1 1</Specular>
+						<Emit>0 0 0</Emit>
+						<Shininess>1</Shininess>
+					</Material>
+					<Smooth>false</Smooth>
+					<RefractiveIndex>1.25</RefractiveIndex>
+					<Opacity>0</Opacity>
+					<Reflectivity>0</Reflectivity>
+				</Surface>
+			</Surfaces>
+			<SurfaceClusters>
+				<Cluster type="range" surface="1">
+					0 11
+				</Cluster>
+			</SurfaceClusters>
+		</Model>
+	</Models>
+</Scene>
